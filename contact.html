@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+	<title>Food Diaries</title>
+    <link rel="stylesheet" href="css/style.css">
+	
+    <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="css/style.css">
+	
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Food Diaries">
+  <meta name="keywords" content="Pizza, Burger, Sandwiches,  Home delievery">
+  <meta name="author" content="Sheharyar, Ali, usman, awais">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Food Diaries</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  <meta name="keywords" content="Pizza, Burger, Sandwiches,  Home delievery">
+  <meta name="author" content="Sheharyar, Ali, usman, awais">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+  <a href="#"><img src="images/LOGO.jpg" alt="logo" width="160" height="75"></a> 
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i>Home</a>
+      <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> About</a>
+
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in"></i> Login</a>
+      
+      <a href="register.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Register</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
+	        <a href="signup.html" class="w3-bar-item w3-button"><i class="fa fa-certificate "></i> SignUp</a>
+
+	  
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+
+
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="images\2.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header><hr>
+
+
+<style>
+
+.contact_btn{
+	background:#f5bc04 ;
+	-webkit-border-radius:0 ;
+	-moz-border-radius:0 ;
+	-ms-border-radius:0 ;
+	border-radius:0 ;
+	color:#fff ;
+	padding:10px 50px 
+}
+
+.contact_us_text_box{
+	-webkit-border-radius:0px ;
+	-moz-border-radius:0px ;
+	-ms-border-radius:0px ;
+	border-radius:0px ;
+	border:1px solid #777 ;
+	font-size:14px 
+}
+
+
+.heading{
+	font-size:24px;color:#222	
+	}
+	
+	
+	
+
+</style>
+
+<div class="container-fluid ">
+    <div class="container">
+        <div class="col-12 text-center">
+		<br>
+		<br>
+            <div class="text-center heading py-2">Contact Us</div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form class="row" id="fh5co_contact_form">
+                    <div class="col-12 py-3">
+                        <input type="text" id="firstName" class="form-control contact_text_box" placeholder="Enter Your Name" required pattern="^[a-z]{3,}"/>
+                    </div>
+                    <div class="col-6 py-3">
+                        <input type="text" id="email" class="form-control contact_text_box" placeholder="E-mail" required pattern="^[a-z]+(\w|\.|)?(([a-z]|[0-9])*)?@(([a-z]{3,7}\.com)|([a-z]{3,5}\.[a-z]{3,5}\.[a-z]{2,4}))"/>
+                    </div>
+                    <div class="col-6 py-3">
+                        <input type="text" id="subject" class="form-control contact_text_box" placeholder="Subject" required pattern="^[a-z]{3,}" />
+                    </div>
+                    <div class="col-12 py-3">
+                        <textarea class="form-control contacts_message" id="message" placeholder="Message" required pattern="^[a-z]+\s[a-z]{2,}(\s|[a-z]{1,20})+"></textarea>
+                    </div>
+                    <div class="col-12 py-3 text-center"> <a href="#" class="btn contact_btn">Send Message</a> </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 align-self-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.8093198834013!2d74.26567331475768!3d31.44691598139396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919017432b1835b%3A0xe396992a5b05891c!2sUniversity+of+Central+Punjab!5e0!3m2!1sen!2s!4v1523863799113" width="550" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
